@@ -16,6 +16,8 @@ A polars-based implementation of the `tableone` library for generating summary s
 * Use of `great_tables` to display nicer tables.
 * In some cases, use of `polars` operations rather than `numpy`, though these are almost always identical.
 * Automatic determination of nonnormal columns and will display q1, median, q3 (whereas `tableone` defaults to showing `mean` even in these cases).
+* Specify number of bins for histograms using `show_histograms=8`; if `show_histograms` is set to `True`, the default is 10 bins (`tableone` defaults to 8)
+
 
 ### But I Prefer `tableone`
 
@@ -34,8 +36,8 @@ pip install polartableone
 import polars as pl
 from polartableone import TableOne
 
-# Load your data
-df = pl.read_csv('datasets/iris.csv')
+# load your data
+df = pl.read_csv('tests/datasets/pn2012.csv')
 
 # columns to summarize
 columns = ['Age', 'SysABP', 'Height', 'Weight', 'ICU', 'death']
