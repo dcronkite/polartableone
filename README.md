@@ -5,7 +5,7 @@ A polars-based implementation of the `tableone` library for generating summary s
 ## Features
 
 - Fast summary statistics for a 'Table 1' using polars
-- Automatic detection of categorical and continuous variables
+- Automatic detection of categorical, continuous, and nonnormal variables
 - Support for stratified tables and p-values
 - Beautiful table formatting via Great Tables
 - Export to HTML, CSV, Excel, LaTeX, and many tabular formats
