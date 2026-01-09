@@ -1,0 +1,9 @@
+,,Missing,Overall
+n,,,150
+"sepal_length, mean (SD)",,0,5.8 (0.8)
+"sepal_width, mean (SD)",,0,3.1 (0.4)
+"petal_length, mean (SD)",,0,3.8 (1.8)
+"petal_width, mean (SD)",,0,1.2 (0.8)
+"species, n (%)",setosa,,50 (33.3)
+"species, n (%)",versicolor,,50 (33.3)
+"species, n (%)",virginica,,50 (33.3)

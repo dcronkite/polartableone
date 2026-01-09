@@ -1,0 +1,15 @@
+,,Missing,Overall
+n,,,1000
+"Age, mean (SD)",,0,65.0 (17.2)
+"SysABP, mean (SD)",,291,114.3 (40.2)
+"Height, mean (SD)",,475,170.1 (22.1)
+"Weight, mean (SD)",,302,82.9 (23.8)
+"ICU, n (%)",CCU,,162 (16.2)
+"ICU, n (%)",CSRU,,202 (20.2)
+"ICU, n (%)",MICU,,380 (38.0)
+"ICU, n (%)",SICU,,256 (25.6)
+"MechVent, n (%)",0,,540 (54.0)
+"MechVent, n (%)",1,,460 (46.0)
+"LOS, mean (SD)",,0,14.2 (14.2)
+"death, n (%)",0,,864 (86.4)
+"death, n (%)",1,,136 (13.6)
