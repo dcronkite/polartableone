@@ -10,6 +10,18 @@ A polars-based implementation of the `tableone` library for generating summary s
 - Beautiful table formatting via Great Tables
 - Export to HTML, CSV, Excel, LaTeX, and many tabular formats
 
+### Differences with `tableone` Library
+
+* `polars` rather than `pandas`
+* Use of `great_tables` to display nicer tables.
+* In some cases, use of `polars` operations rather than `numpy`, though these are almost always identical.
+* Automatic determination of nonnormal columns and will display q1, median, q3 (whereas `tableone` defaults to showing `mean` even in these cases).
+
+### But I Prefer `tableone`
+
+Great! Just convert your `polars` dataframe to `pandas` (`df.to_pandas()`) and then use `tableone`!
+
+
 ## Installation
 
 ```bash
